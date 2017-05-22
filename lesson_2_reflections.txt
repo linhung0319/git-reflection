@@ -1,0 +1,49 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.~lock.Note-Creating and Modifying a Repository.odt#
+	Note-Creating and Modifying a Repository.odt
+	Reflection.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Staging area is a place to contain files that we want to commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+Add a single logical change file to the staging area and then commit. Add another
+logical change file to the staging area and commit again to distinguish these
+two logical change.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+When creating an experimental feature or another version of the code, use branches.
+We can change to different version of the code by using checkout branch. 
+
+How do the diagrams help you visualize the branch structure?
+
+It helps me figure out on which point code started to branch and where a commit's 
+parent is.    
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Merge would combine two branches including features that both branches have
+and features that exists in only one branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The pros of automatic merging is that it saves our time and the cons is it might sometimes
+be confusing when it came across to merge conflict.
+
